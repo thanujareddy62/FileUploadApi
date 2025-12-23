@@ -2,3 +2,7 @@
 obj/
 appsettings.Development.json
 *.csproj.user
+
+# Visual Studio publish profiles
+Properties/PublishProfiles/
+Properties/ServiceDependencies/
