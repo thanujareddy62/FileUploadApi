@@ -55,6 +55,24 @@ Client (Postman / Browser)
 → Azure Key Vault (secure secrets)  
 → Azure Application Insights (logs & monitoring)
 
+Architecture :  https://fried-viola-73649473.figma.site/
+
+## Setup Steps
+
+1. Clone the repository
+2. Create Azure resources:
+   - App Service
+   - Storage Account
+   - Blob container (uploads)
+   - Table (FileMetadata)
+   - Azure Key Vault
+   - Application Insights
+3. Add storage connection strings to Azure Key Vault
+4. Enable Managed Identity for App Service
+5. Assign Key Vault Secrets User role
+6. Publish the Web API to Azure App Service
+7. Test API using Postman
+
 
 
 
